@@ -1,24 +1,23 @@
-# test_task
-
-## Project setup
+# TestTask
+Форкаем
+## Установка
+Открываем два окна редактора или терминала </br>
+в первом **/TestTask/Server** (папка с сервером, находится в проэкте)</br>
+во втором **/TestTask/** (сам проэкт)</br>
+в каждом:
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+$ npm install - установка необходимых модулей
 ```
 
-### Lints and fixes files
+### Запуск
+**/TestTask/Server** 
 ```
-npm run lint
+npm run api - запускаем сервер для обработки запросов
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+**/TestTask/**
+```
+npm run serve - делаем сборку для просмотра проэкта, доступно в браузере по адресу http://localhost:8080/
+```
+---
+***Примечание:** подрузамевается что [Node.js](https://nodejs.org/en/) установлен
