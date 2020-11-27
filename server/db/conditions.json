@@ -1,0 +1,23 @@
+[
+    {   
+        "id": "1",
+        "name": "Возраст респондента",
+        "discription" : "Диапазон",
+        "type": "input",
+        "parametrs": ["from", "to"]
+    },
+    {   
+        "id": "2",
+        "name": "Тип карты лояльности",
+        "discription" : "Тип",
+        "type": "selected",
+        "parametrs": ["Silver", "Gold", "Platinum"]
+    },
+    {
+        "id": "3",
+        "name": "Статус карты лояльности",
+        "discription" : "Статус",
+        "type": "selected",
+        "parametrs": ["Активна", "Не активна"]
+    }
+]
